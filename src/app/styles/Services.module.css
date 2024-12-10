@@ -1,0 +1,10 @@
+.services {
+    padding: 50px 0;
+  }
+  
+  .cardContainer {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  

@@ -1,0 +1,32 @@
+.apiData {
+    padding: 160px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 0 4px 6px  #2980B9;
+    background-image:url(./hd\ quotes.png) ;
+    background-size:cont;
+  }
+  
+  .apiData h1 {
+    color:blue;
+    margin-bottom: 20px;
+    padding: 40px;
+  }
+  
+  .apiData blockquote {
+    background: #2980B9;  
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    padding: 50px;
+    border-radius: 8px;
+    font-style: italic;
+    color: #555;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .apiData blockquote footer {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  

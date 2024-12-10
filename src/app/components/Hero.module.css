@@ -1,0 +1,71 @@
+.hero {
+    padding: 50px 0;
+    text-align: center;
+       
+    color: white;
+  }
+  
+ .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  .hero {
+    background: #833ab4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);   
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-weight: bold;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-out forwards;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+    margin: 10px 0;
+    font-weight: 300;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1.2s ease-out forwards;
+    animation-delay: 0.5s;
+  }
+  
+  /* Hover effect for Hero text */
+  .hero h1:hover {
+    color: #ff5722;
+    transform: translateY(-5px);
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .hero p:hover {
+    color: #ffffff;
+    transform: translateY(-5px);
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
